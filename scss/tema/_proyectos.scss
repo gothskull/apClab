@@ -1,0 +1,22 @@
+.logo-empresa
+{
+	img
+	{
+		width: 150px;
+	}
+}
+/* SINGLE PROJECT */
+.icono-app i:before 
+{
+    font-size: 40px!important;
+    color: #8b9cc4!important;
+}
+/* BARRA DE PROGRESO */
+.kt-widget12__progress
+{
+	padding-top: 0.6rem!important;
+	.kt-progress--sm
+	{
+		height: 1.2rem!important;
+	}
+}

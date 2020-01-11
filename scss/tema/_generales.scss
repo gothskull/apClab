@@ -1,0 +1,35 @@
+
+/* TEMA */
+// PAGINA ACTUAL
+li.current_page_item
+{
+	background-color: $azul;
+	padding: 8px 18px;
+	border-radius: 4px;
+	margin-left: 6px;
+	&:hover
+	{
+		background-color: darken($azul, 7%)!important;
+	}
+	a
+	{
+		color: $blanco!important;
+		
+	}
+}
+a:visited
+{
+	color: $primary;
+}
+
+.btn-brand 
+{
+    color: $blanco;
+    background-color: $principal;
+    border-color: $principal;
+    color: $blanco;
+    &:visited
+    {
+    	color: $blanco!important;
+    }
+}
